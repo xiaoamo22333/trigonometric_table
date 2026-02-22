@@ -1,0 +1,75 @@
+# 依赖目录
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# 构建输出
+dist/
+dist-ssr/
+build/
+*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编辑器文件
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 缓存
+.cache/
+.parcel-cache/
+.temp/
+.tmp/
+*.tsbuildinfo
+
+# 测试覆盖率
+coverage/
+
+# Lock 文件（可选，通常建议保留）
+# 但项目同时有 bun.lock 和 package-lock.json，这里都保留
+# bun.lock
+# package-lock.json
+
+# Deno
+deno.lock
+.deno/
+
+# API 缓存
+api/.cache/
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

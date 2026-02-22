@@ -1,0 +1,21 @@
+{
+  "name": "math-trig-table",
+  "exports": "./server.ts",
+  "version": "1.0.0",
+  "description": "数学三角函数表 - 支持分数和小数点后20位精度",
+  "tasks": {
+    "dev": "deno run --allow-all --watch server.ts",
+    "start": "deno run --allow-all server.ts",
+    "build": "cd /mnt/okcomputer/output/app && npm run build",
+    "serve": "deno run --allow-all --allow-net --allow-read server.ts"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.0",
+    "@std/path": "jsr:@std/path@^1.0.0",
+    "@std/fs": "jsr:@std/fs@^1.0.0"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}
